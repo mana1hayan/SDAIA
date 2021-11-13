@@ -1,1 +1,2 @@
-
+How to improve an online business based on customers’ reviews?
+The main objective of this project is to know what the level of customer satisfaction with the quality of clothes is by applying sentiment analysis. In another words, we can determine if customers are satisfied or dissatisfied with their purchased. We want also to find out what is the most and least selling items, and which age groups favor to buy specific type of clothes as well. 
