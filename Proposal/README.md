@@ -13,12 +13,12 @@ The bellow image illustrates a sample of used data:
 ## Tools:
 Several tools will be applied in this project to help enhancing the business. For instance, pandas’ tool can be used to get the data and apply useful functions. In addition, we can use seaborn to visualize the data, and NLTK for preprocessing data as well. 
 
-Moreover, we need to label data as satisfied or dissatisfied for sentiment classification before applying supervised learning, so Rating feature will be used for labeling data and then we will select an appropriate model for obtaining best results to fit data.
+Moreover, we need to label data as satisfied or dissatisfied for sentiment classification before applying supervised learning, hence the Rating feature will be used for labeling data and then we will select an appropriate model for obtaining best results to fit data.
 
 ## TO DO:
 - EDA phases, including preprocessing data, visualization will be used, and then an appropriate model will be selected to fit the data.
 #### NOTE:
--Rating feature might be changed to Recommended IND, which have been already labeled in the data, indicating that 0 is unrecommended and 1 is recommended. 
+- Rating feature might be changed to Recommended IND, which have been already labeled in the data, indicating that 0 is unrecommended and 1 is recommended. 
 
 
 
