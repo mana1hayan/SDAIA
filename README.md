@@ -3,7 +3,7 @@
 
 
 ## Problem Statement 
-Online ratings and reviews play a main role for business revenues since customers usually write about their experiences whether positive or negative when purchasing a product through online services.This means the more complimentary reviews the better income for businesses, but when some buyers are dissatisfied with the quality of products, this might cause adverse consequences not only for them but also for other customers because online shoppers can be persuaded through those negative reviews for not buying unrecommended clothes.Additionally, businesses often produce new products to meet customer tastes, but successful products might be unintentionally changed, causing a decrease in profits.
+Online ratings and reviews play a main role for business revenues since customers usually write about their experiences whether positive or negative when purchasing a product through online services.This means the more complimentary reviews the better income for businesses, but when some buyers are dissatisfied with the quality of products, this might cause adverse consequences not only for them but also for other customers because online shoppers can be persuaded through those negative reviews for not buying unrecommended clothes. Additionally, businesses often produce new products to meet customer tastes, but successful products might be unintentionally changed, causing a decrease in profits. 
 
 
 ## Design 
