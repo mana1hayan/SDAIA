@@ -7,10 +7,13 @@ Online ratings and reviews play a main role for business revenues since customer
 
 
 ## Design 
-To address the above issue, adverse and helpful reviews should be determined in order to meet customers satisfaction and maintain a good business by machine learning methods (ML). To illustrate, we will classify text reviews based on sentiment Analysis method (SA) by using one of ML methods which is supervised, so that satisfied and dissatisfied reviews can be distinguished.
+To address the above issue, adverse and helpful reviews should be determined in order to meet customers satisfaction and maintain a good business by machine learning methods (ML). To illustrate, we will classify text reviews based on sentiment Analysis method (SA) by using one of ML methods which is supervised, so that satisfying and dissatisfying reviews can be distinguished.
 
 
 ## Data
 The Women's Fashion Reviews dataset has been acquired from kaggle as a .csv file, containing 23486 rows and 10 features. To address the issue, we select the two top relevant features, which are the Review Text, and Rating columns. In the Review text feature, consumers have been written about their experience with the quality of clothes, and the other feature is determined customers' rating scale from 1 till 5, which is used in our project to label data for Sentiment Analysis tools. In addition, other features have been used for a business insight to determine the most and least selling items and the distribution of age group such as Age,Recommended IND, and Department_Name.
+
+
+## Algorithms 
 
 
