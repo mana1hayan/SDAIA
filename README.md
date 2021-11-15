@@ -20,5 +20,7 @@ The Women's Fashion Reviews dataset has been acquired from kaggle as a .csv file
 - The Text Review feature have been cleaned by removing all punctuations, numbers, a word that has length <= 2 , stopwords and lowering the word.
 - labeled data have been gotten by using the Rating feature, where one and two star ratings indicate dissatisfying reviews, 3 means moderate, and when assigning 4 and 5 ratings, it means satisfying reviews. Moderate reviews have been dropped due to sentiment analysis, so that so that 0 is dissatisfying reviews and 1 is satisfying reviews.
 ###### Model:
-Naive Bayes model have been used to classify the reviews. The precision, recall, and F1 score were selected to evaluate your model due to imbalanced dataset as shown in the below picture:  
+- Naive Bayes model have been used to classify the reviews. The precision, recall, and F1 score were selected to evaluate your model due to imbalanced dataset as shown in the below picture:  
+ ![Picture1](https://user-images.githubusercontent.com/93191265/141857467-52cc1496-e02d-4ba6-b98c-57e20b82f639.png)
+
 
