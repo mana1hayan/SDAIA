@@ -15,5 +15,8 @@ The Women's Fashion Reviews dataset has been acquired from kaggle as a .csv file
 
 
 ## Algorithms 
+###### Feature Extraction Methods: 
+- The Text Review feature have been cleaned by removing all punctuation, numbers, a word that has length <= 2 , stopwords and lowering the word.
+- labeled data have been gotten by using the Rating feature, where one and two star ratings indicate dissatisfying reviews, 3 means moderate, and when assigning 4 and 5 ratings, it means satisfying reviews. Moderate reviews have been dropped due to sentiment analysis, so that so that 0 is dissatisfying reviews and 1 is satisfying reviews.
 
 
