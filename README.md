@@ -26,12 +26,11 @@ The Women's Fashion Reviews dataset has been acquired from kaggle as a .csv file
  ![Picture1](https://user-images.githubusercontent.com/93191265/141857467-52cc1496-e02d-4ba6-b98c-57e20b82f639.png)
 
 ## Tools
-- Pandas for loading data and applying functions
-- Scikit-learn for modelling
-- NLTK for natural language processing
-- re, string for cleanning data
-- Matplotlib, Seaborn for visualizing data
--
+- Pandas for loading data and applying functions.
+- Scikit-learn for modelling.
+- NLTK for natural language processing.
+- re, string for for data cleansing. 
+- Matplotlib, Seaborn for visualizing data.
 
 ## Communication
 
