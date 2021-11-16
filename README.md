@@ -33,4 +33,4 @@ The Women's Fashion Reviews dataset has been acquired from kaggle as a .csv file
 - Matplotlib, Seaborn for visualizing data.
 
 ## Communication
-Presentation: [Click](https://github.com/mana1hayan/SDAIA/blob/main/Online%20clothes'%20reviews.pdf)
+Presentation: [Click](https://github.com/mana1hayan/SDAIA/blob/main/Presentation/Online%20clothes'%20reviews.pdf)
