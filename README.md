@@ -2,9 +2,8 @@
 Manal Abdulaziz Alhayan
 
 
-## Problem Statement 
-Online ratings and reviews play a main role for business revenues since customers usually write about their experiences whether positive or negative when purchasing a product through online services.This means the more complimentary reviews the better income for businesses, but when some buyers are dissatisfied with the quality of products, this might cause adverse consequences not only for them but also for other customers because online shoppers can be persuaded through those negative reviews for not buying unrecommended clothes. Additionally, businesses often produce new products to meet customer tastes, but successful products might be unintentionally changed, causing a decrease in profits. 
-
+## Abstract 
+Online ratings and reviews play a main role for business revenues since customers usually write about their experiences whether positive or negative when purchasing a product through online services. This means the more complimentary reviews the better income for businesses, but some buyers are dissatisfied with the quality of products, causing adverse consequences for the business since online shoppers can be persuaded through those negative reviews for not buying unrecommended clothes. Thus, the main objective of this project is to enhance products based on customers reviews using one category of machine learning methods which is supervised. The used data is available in Kaggle, labeled using Sentiment analysis model, and evaluated by Naive Bayes classifier. The overall accuracy is 93%, but since we have imbalanced dataset, the official metric is F-score, achieving 96% with positive or satisfying reviews. 
 
 ## Design 
 To address the above issue, adverse and helpful reviews should be determined in order to meet customers satisfaction and maintain a good business by machine learning methods (ML). To illustrate, we will classify text reviews based on sentiment Analysis method (SA) by using one of ML methods which is supervised, so that satisfying and dissatisfying reviews can be distinguished.
