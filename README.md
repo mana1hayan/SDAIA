@@ -16,9 +16,9 @@ The Women's Fashion Reviews dataset has been acquired from kaggle as a .csv file
 ## Algorithms 
 
 ###### Feature Engineering: 
-- Cleansing the Text Review feature by removing all punctuations, numbers, a word that has length <= 2 , stopwords and lowering the word.
+- Cleansing the Text Review feature by removing all punctuations, numbers, a word that has length <= 2 , stopwords and lowering the word and presenting the length of each text review for cleaning purposes.
 - Labeling data using the Rating feature. To ilustrate, one and two star ratings indicate dissatisfying reviews, 3 means moderate, and when assigning 4 and 5 ratings, it means satisfying reviews. Moderate reviews have been dropped due to applying sentiment analysis method.
-- The most common words in dissatisfying reviews have been counted using a bag of word, implying for several things. For instance, size, small, and wear were most frequent words and this might imply for complaining about sizes, as a result US and UK size charts should be included in the website. In addition, Frequent Fabric, and Material words might indicate that customers were dissatisfied with the quality of products, consequently types of fabric should be included in detail. Moreover, looked, look, like , love words showed high frequency, which might imply that the Item not the same as in pictures, this High resolution image should be posted.
+- Counting the most common words in dissatisfying reviews using a bag of word, implying for several things. For instance, size, small, and wear were most frequent words and this might imply for complaining about sizes, as a result US and UK size charts should be included in the website. In addition, Frequent Fabric, and Material words might indicate that customers were dissatisfied with the quality of products, consequently types of fabric should be included in detail. Moreover, looked, look, like , love words showed high frequency, which might imply that the Item not the same as in pictures, this High resolution image should be posted.
 
 ###### Model Selection and Evaluation:
 - Naive Bayes model have been used to classify the text reviews. The F1 score was selected to evaluate our model due to imbalanced dataset as shown in the below picture:  
