@@ -10,18 +10,18 @@ The goal of improving products based on customers' reviews in this project has b
 
 
 ## Data
-The Women's Fashion Reviews dataset has been acquired from kaggle as a .csv file, containing 23486 rows and 10 features. To address the issue, we select the two top relevant features, which are the Review Text, and Rating columns. In the Review text feature, consumers have been written about their experience with the quality of clothes, and the other feature is determined customers' rating scale from 1 till 5, which is used in our project to label data for Sentiment Analysis tools. In addition, other features have been used for a business insight to determine the most and least selling items and the distribution of age group such as Age,Recommended IND, and Department_Name.
+The Women's Fashion Reviews dataset has been acquired from kaggle as a .csv file, containing 23486 rows and 10 features. To address the issue, we select the two top relevant features, which are the Review Text, and Rating columns. In the Review text feature, consumers have been written about their experience with the quality of clothes, and the other feature is determined customers' rating scale from 1 till 5, which is used in our project to label data for Sentiment Analysis method. In addition, other features have been used for a business insight to determine the most and least selling items and the distribution of age group such as Age,Recommended IND, and Department_Name.
 
 
 ## Algorithms 
 
 ###### Feature Engineering: 
-- The Text Review feature have been cleaned by removing all punctuations, numbers, a word that has length <= 2 , stopwords and lowering the word.
-- Labeled data have been gotten by using the Rating feature, where one and two star ratings indicate dissatisfying reviews, 3 means moderate, and when assigning 4 and 5 ratings, it means satisfying reviews. Moderate reviews have been dropped due to sentiment analysis, so that so that 0 is dissatisfying reviews and 1 is satisfying reviews.
+- Cleansing the Text Review feature by removing all punctuations, numbers, a word that has length <= 2 , stopwords and lowering the word.
+- Labeling data using the Rating feature. To ilustrate, one and two star ratings indicate dissatisfying reviews, 3 means moderate, and when assigning 4 and 5 ratings, it means satisfying reviews. Moderate reviews have been dropped due to applying sentiment analysis method.
 - The most common words in dissatisfying reviews have been counted using a bag of word, implying for several things. For instance, size, small, and wear were most frequent words and this might imply for complaining about sizes, as a result US and UK size charts should be included in the website. In addition, Frequent Fabric, and Material words might indicate that customers were dissatisfied with the quality of products, consequently types of fabric should be included in detail. Moreover, looked, look, like , love words showed high frequency, which might imply that the Item not the same as in pictures, this High resolution image should be posted.
 
 ###### Model Selection and Evaluation:
-- Naive Bayes model have been used to classify the text reviews. The precision, recall, and F1 score were selected to evaluate our model due to imbalanced dataset as shown in the below picture:  
+- Naive Bayes model have been used to classify the text reviews. The F1 score was selected to evaluate our model due to imbalanced dataset as shown in the below picture:  
  ![Picture1](https://user-images.githubusercontent.com/93191265/141857467-52cc1496-e02d-4ba6-b98c-57e20b82f639.png)
 
 ## Tools
@@ -32,4 +32,5 @@ The Women's Fashion Reviews dataset has been acquired from kaggle as a .csv file
 - Matplotlib, Seaborn for visualizing data.
 
 ## Communication
-Presentation: [Click](https://github.com/mana1hayan/SDAIA/blob/main/Presentation/Online%20clothes'%20reviews.pdf)
+- Presentation: [Click](https://github.com/mana1hayan/SDAIA/blob/main/Presentation/Online%20clothes'%20reviews.pdf)
+- Description: [Click](https://github.com/mana1hayan/SDAIA/blob/main/README.md)
