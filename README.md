@@ -21,8 +21,8 @@ The Women's Fashion Reviews dataset has been acquired from kaggle as a .csv file
 - Counting the most common words in dissatisfying reviews using a bag of word, implying for several things. For instance, size, small, and wear were most frequent words and this might imply for complaining about sizes, as a result US and UK size charts should be included in the website. In addition, Frequent Fabric, and Material words might indicate that customers were dissatisfied with the quality of products, consequently types of fabric should be included in detail. Moreover, looked, look, like , love words showed high frequency, which might imply that the Item not the same as in pictures, this High resolution image should be posted.
 
 ###### Model Selection and Evaluation:
-- Logistic Regression model have been used to classify the text reviews. The F1 score was selected to evaluate our model due to imbalanced dataset as shown in the below picture:  
- ![Picture1](https://user-images.githubusercontent.com/93191265/141857467-52cc1496-e02d-4ba6-b98c-57e20b82f639.png)
+- Logistic Regression model have been used to classify the text reviews. The model was trained on a 20 test and 80 train. The F1 score was selected to evaluate our model due to imbalanced dataset as shown in the below picture:  
+ ![LR](https://user-images.githubusercontent.com/93191265/142176998-675f425e-1167-4a95-a96f-608a93b1b362.png)
 
 ## Tools
 - Pandas for loading data and applying functions.
